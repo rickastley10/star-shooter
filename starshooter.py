@@ -203,6 +203,8 @@ def click(x, y):
 
 t.onkey(left, "a")
 t.onkey(right, "d")
+t.onkey(left, "Left")
+t.onkey(right, "Right")
 t.onkey(shoot, "space")
 t.onscreenclick(click)
 t.listen()
